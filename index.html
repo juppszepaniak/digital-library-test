@@ -40,7 +40,12 @@
           Bücher du...
         </p>
         <div class="reading-time-container">
-          <h3>Du hast bis jetzt <span>X Tage, XX Stunden XX Minuten</span> gelesen.</h3>
+          <div id="timer">00:00:00:00</div>
+          <div class="timer-btn-container">
+            <button class="start-timer-btn" onclick="startTimer()">Start</button>
+            <button class="stop-timer-btn" onclick="stopTimer()">Stop</button>
+            <button class="reset-timer-btn" onclick="resetTimer()">Reset</button>
+          </div>
         </div>
       </section>
 
@@ -49,23 +54,33 @@
           <div class="book-card-description"></div>
           <h3>Schuld und Sühne</h3>
           <p>Fjodor Dostojewski</p>
-          <img src="https://images.thalia.media/-/BF750-750/a31a3c76d4264e09bdab6ad841cf41f8/schuld-und-suehne-taschenbuch-fjodor-m-dostojewski.jpeg" alt="Book Cover" />
+          <img
+            src="https://images.thalia.media/-/BF750-750/a31a3c76d4264e09bdab6ad841cf41f8/schuld-und-suehne-taschenbuch-fjodor-m-dostojewski.jpeg"
+            alt="Book Cover"
+          />
         </div>
         <div class="book-card">
           <h3>David Copperfield</h3>
           <p>Charles Dickens</p>
-          <img src="https://images.thalia.media/-/BF2000-2000/63fb92402c7f45c58227033b3b53195f/david-copperfield-gebundene-ausgabe-charles-dickens.jpeg" alt="Book Cover" />
+          <img
+            src="https://images.thalia.media/-/BF2000-2000/63fb92402c7f45c58227033b3b53195f/david-copperfield-gebundene-ausgabe-charles-dickens.jpeg"
+            alt="Book Cover"
+          />
         </div>
         <div class="book-card">
           <h3>Stolz und Vorurteil</h3>
           <p>Jane Austen</p>
-          <img src="https://medien.umbreitkatalog.de/bildzentrale_original/978/315/020/4085.jpg" alt="Book Cover" />
+          <img
+            src="https://medien.umbreitkatalog.de/bildzentrale_original/978/315/020/4085.jpg"
+            alt="Book Cover"
+          />
         </div>
       </main>
 
       <footer>
         <p>&copy; 2025 Digital Library. All rights reserved.</p>
       </footer>
+      <script src="script.js"></script>
     </body>
   </html>
 </html>
